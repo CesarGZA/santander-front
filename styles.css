@@ -1,18 +1,18 @@
-
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}  
 body {
-    background-image: url('https://cdn.hipwallpaper.com/i/82/96/8aPcBW.jpg');
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fff;
+    background-color: azure;
 }
-
-h2 {
-    color: #b7b8bb;
-    
+h1 {
+    color: #46484c;
+    text-align: center;  
 }
-
 p {
     color: #8b8b8bcc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
 label{
@@ -21,6 +21,56 @@ label{
 button {
     color: #fff;
     background-color: #025157;
-    width: 120px;
-    height: 30px;
+   
+}
+li{
+    display: inline;
+}
+.header{
+    margin: 40px 20px 0 20px;
+    line-height: 45px;
+    font-size: 0;
+}
+.header >*{ /* Todos los hijos de la clase header */
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+    font-family: sans-serif;
+}
+.logo{
+    width: 15%;
+}
+.navbar{
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: 500;
+    
+}
+.navbar li{
+    margin-left: 25px;
+}
+.actions{
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.actions >*{
+    margin-left: 10px ;
+    color:#67b54b;
+}
+
+.actions button{
+    background-color: #67b54b;
+    color:#fff ;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+}
+.container{
+    margin:20px; 
 }
