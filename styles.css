@@ -5,6 +5,7 @@
 }  
 body {
     background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
     color: #46484c;
@@ -72,9 +73,9 @@ li{
     border-radius: 5px;
 }
 .container{
-    margin:20px; 
+     
 }
-.sections{
+.section-1{
     display: flex;
     width: 70%;
     margin: 100px auto;
@@ -126,3 +127,112 @@ li{
     left: 0;
     right: 0;
 }
+.section-2{
+    background-color: #a1d683;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 15%;
+    
+}
+.overview{
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0;
+    padding-right: 100px;
+}
+.overview h2{
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+}
+.overview p{
+    color:#343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.overview button{
+    font-size: 14;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left:0;
+}
+
+.overview img{
+    width: 500px;
+}
+.card{
+    background-color: white;
+    max-width: 350px;
+    border-radius: 10px;
+}
+.card img{
+    max-width: 350px;
+}
+.card-media img{
+    border-radius: 10px 10px 0 0;
+}
+.card-body{
+     padding: 50px 25px;
+}
+.card-body h4{
+    color:#025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.card-body h3{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.result{
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+.result img{
+    width: 26px;
+    margin-right: 20px;
+}
+.card-footer{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.card-footer button{
+    display: block;
+    margin-left: 0%;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 12px 20px;
+    font-size: 19px;
+    
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+
+}
+.carruselicons{
+    margin: 10px auto;
+}
+.cards li{
+    box-sizing: content-box;
+    flex: 0 1;
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+    margin-left: 3px;
+    color:#025157;
+
+}
+ 
