@@ -437,11 +437,9 @@ li{
 .metadata{
     font-weight: 500;
     font-size: 12px;
-    color: #979797;
+    
 }
-.metadata .category{
-    color: #67b54b;
-}
+
 .card-text{
     font-size: 18px;
     line-height: 1.5rem;
