@@ -2,7 +2,7 @@
   "name": "front",
   "version": "1.0.0",
   "description": "git init\r # preparar archivos que se convertiran en commit\r git add\r  ## El punto es agregar# Iniciar proyecto de git\r git init",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

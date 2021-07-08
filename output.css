@@ -56,4 +56,10 @@
   color: #979797;
 }
 
+@media (max-width: 575px) {
+  .card {
+    margin: 1rem 0;
+  }
+}
+
 /*# sourceMappingURL=output.css.map */
