@@ -64,6 +64,30 @@
   }
   
 }
+.formInit{
+  padding: 5% 15%;
+  .buttom{
+    background-color: $dark-green-text;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 20px;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+}
+
+.gallery{
+  background-color: $light-green;
+  padding: 5% 15%;
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill , minmax(17.5rem, 1fr));
+  .card{
+    max-width: none;
+    width: auto;
+  }
+}
 
 @media(max-width:575px) {
   .card{

@@ -56,6 +56,31 @@
   color: #979797;
 }
 
+.formInit {
+  padding: 5% 15%;
+}
+.formInit .buttom {
+  background-color: #135359;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 6px 20px;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.gallery {
+  background-color: #67b54b;
+  padding: 5% 15%;
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
+}
+.gallery .card {
+  max-width: none;
+  width: auto;
+}
+
 @media (max-width: 575px) {
   .card {
     margin: 1rem 0;
